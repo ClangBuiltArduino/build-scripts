@@ -1,19 +1,5 @@
 #include <Arduino.h>
 
-void serialEvent() {
-}
-
-void serialEvent1() {
-	serialEvent();
-}
-void serialEvent2() {
-	serialEvent();
-}
-void serialEvent3() {
-	serialEvent();
-}
-
-
 void setup() {
 	Serial.begin(9600);
 	Serial.print("started\n");
